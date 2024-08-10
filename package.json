@@ -1,0 +1,17 @@
+{
+  "name": "gmail-optimizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xiaoa",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "glob": "^11.0.0",
+    "googleapis": "^105.0.0",
+    "piscina": "^4.6.1"
+  }
+}
