@@ -18,7 +18,7 @@ But it is not 100% failure, if your mail is not a lot, you can continue to try t
 
 I put all these approaches into this category: whether you use your own script or someone else's, whether you use headless E2E testing tools, or various RPA frameworks that simulate human-computer interaction behaviours, these approaches have very strict runtime requirements, plus network reasons, the stability of the relationship can not be guaranteed, the advantage is that because of the GUI interface naturally carries the state attribute, your scripts You don't need to record the state. If it fails, just run it again.
 
-**😺 Re-open gmail account
+**😺 Re-open gmail account**
 
 Many users choose to directly reopen the gmail account, this is not impossible, if your gmail account is not the main account.
 
@@ -46,11 +46,11 @@ Many users choose to directly reopen the gmail account, this is not impossible, 
 
 ### About
 
-In response to our daily use of `Gmail` process similar to the above pain points, as well as may involve the depth of the use of scenarios, I decided to develop a toolkit, the name is ` 📮 Gmail-Optimizer `, which integrates the ` Gmail` for ` Gmail` utility script, the function includes: ` `Multi-threaded batch deletion of emails ` ` ` ` Export mail ` ` ` Listen to mail status ` ` etc., but currently this repository is in the ` `WIP ` status, welcome to participate in the contribution. Listening to email status, etc. A desktop client will be available in the future, but this repository is currently in `WIP` status, so feel free to contribute.
+In response to our daily use of `Gmail` process similar to the above pain points, as well as may involve the depth of the use of scenarios, I decided to develop a toolkit, the name is `📮 Gmail-Optimizer`, which integrates the `Gmail` for `Gmail` utility script, the function includes: `Multi-threaded batch deletion of emails`、`Export mail`、`Listen to mail status` etc., but currently this repository is in the `WIP` status, welcome to participate in the contribution. Listening to email status, etc. A desktop client will be available in the future, but this repository is currently in `WIP` status, so feel free to contribute.
 
 * 🍃 Green, secure, and based on Google's official `Node.js SDK`.
-* It is called entirely using the `GmailApi` `test application` state, so it is completely 🔏 privacy-safe, and only needs to be called according to the [official documentation](https://developers.google.com/gmail/api/quickstart/nodejs?hl=zh- just need to open the local `oAuth` link according to [official documentation]().
-* Scripts are practical and stable
+* It is called entirely using the `GmailApi` `test application` state, so it is completely 🔏 privacy-safe, and only needs to be called according to the [official documentation](https://developers.google.com/gmail/api/quickstart/nodejs?hl=zh-cn) just need to open the local `oAuth` link according to official documentation.
+* Scripts are practical and stable.
 
 ---
 
