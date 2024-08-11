@@ -29,7 +29,7 @@ const { rimrafSync } = require('rimraf');
     );
     console.log(`Multi workers finished.`);
 
-    // when finish, then remove thread txt file
+    // when finish, then remove thread record txt file
     await rimrafSync(path.join(process.cwd(), threadFile));
     console.log(`${threadFile} cleaned.`);
   }
