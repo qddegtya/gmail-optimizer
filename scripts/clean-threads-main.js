@@ -5,6 +5,7 @@ const { glob } = require("glob");
 const path = require("node:path");
 const fsp = require("fs").promises;
 const process = require("process");
+const { rimrafSync } = require('rimraf');
 
 (async function () {
   const piscina = new Piscina({
@@ -27,5 +28,9 @@ const process = require("process");
       })
     );
     console.log(`Multi workers finished.`);
+
+    // when finish, then remove thread txt file
+    await rimrafSync(path.join(process.cwd(), threadFile));
+    console.log(`${threadFile} cleaned.`);
   }
 })();

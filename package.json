@@ -12,6 +12,7 @@
     "@google-cloud/local-auth": "^2.1.0",
     "glob": "^11.0.0",
     "googleapis": "^105.0.0",
-    "piscina": "^4.6.1"
+    "piscina": "^4.6.1",
+    "rimraf": "^6.0.1"
   }
 }
