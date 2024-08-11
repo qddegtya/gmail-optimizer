@@ -1,7 +1,5 @@
 # 📮 Gmail-Optimizer
 
----
-
 ## Motivation
 
 The cause of the matter is like this: as we all know, major platforms (including Github), etc., all provide `Notification` configuration, and basically everyone's account is bound to an email address, the default notification configuration of these platforms will be notified to the mailbox, including a variety of `Newsletter` push, notification of changes in the status, etc., if not careful, your free Gmail will soon be full of notification emails is a common thing. If you're not careful, your free Gmail will soon be full, and it's not uncommon to have 100,000 notification emails or more, so your journey begins:
