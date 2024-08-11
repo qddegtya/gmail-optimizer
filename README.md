@@ -46,7 +46,7 @@ Many users choose to directly reopen the gmail account, this is not impossible, 
 
 ## About
 
-In response to our daily use of `Gmail` process similar to the above pain points, as well as may involve the depth of the use of scenarios, I decided to develop a toolkit, the name is `📮 Gmail-Optimizer`, which integrates the `Gmail` for `Gmail` utility script, the function includes: `Multi-threaded batch deletion of emails`、`Exports mails`、`Listening to mail's status` etc., but currently this repository is in the `WIP` status, welcome to participate in the contribution. A desktop client will be available in the future.
+In response to our daily use of `Gmail` process similar to the above pain points, as well as may involve the depth of the use of scenarios, I decided to develop a toolkit, the name is `📮 Gmail-Optimizer`, which integrates the `Gmail` utility script, the function includes: `Multi-threaded batch deletion of emails`、`Exports mails`、`Listening to mail's status` etc., but currently this repository is in the `WIP` status, welcome to participate in the contribution. A desktop client will be available in the future.
 
 * 🍃 Green, secure, and based on Google's official `Node.js SDK`
 * It is called entirely using the `GmailApi` `test application` state, so it is completely 🔏 privacy-safe, and only needs to be called according to the [official documentation](https://developers.google.com/gmail/api/quickstart/nodejs?hl=zh-cn) just need to open the local `oAuth`
