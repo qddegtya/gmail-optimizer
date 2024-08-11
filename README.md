@@ -1,6 +1,8 @@
-> 📮 Gmail-Optimizer
+# 📮 Gmail-Optimizer
 
-### Motivation
+---
+
+## Motivation
 
 The cause of the matter is like this: as we all know, major platforms (including Github), etc., all provide `Notification` configuration, and basically everyone's account is bound to an email address, the default notification configuration of these platforms will be notified to the mailbox, including a variety of `Newsletter` push, notification of changes in the status, etc., if not careful, your free Gmail will soon be full of notification emails is a common thing. If you're not careful, your free Gmail will soon be full, and it's not uncommon to have 100,000 notification emails or more, so your journey begins:
 
@@ -44,7 +46,7 @@ Many users choose to directly reopen the gmail account, this is not impossible, 
 
 不少网友选择直接重开 gmail 账号，这不是不行，如果你的 gmail 账号不是主账号的话。
 
-### About
+## About
 
 In response to our daily use of `Gmail` process similar to the above pain points, as well as may involve the depth of the use of scenarios, I decided to develop a toolkit, the name is `📮 Gmail-Optimizer`, which integrates the `Gmail` for `Gmail` utility script, the function includes: `Multi-threaded batch deletion of emails`、`Exports mails`、`Listening to mail's status` etc., but currently this repository is in the `WIP` status, welcome to participate in the contribution. A desktop client will be available in the future.
 
@@ -60,6 +62,6 @@ In response to our daily use of `Gmail` process similar to the above pain points
 * 它完全使用 `GmailApi` 的`测试应用`态进行调用，因此是完全 🔏 隐私安全的，只需要根据[官方文档](https://developers.google.com/gmail/api/quickstart/nodejs?hl=zh-cn)打通本地 `oAuth` 链路
 * 脚本实用，运行稳定
 
-### Features
+## Features
 
 * [x] Mass delete emails with `thread pool` mode
