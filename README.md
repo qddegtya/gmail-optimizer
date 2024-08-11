@@ -10,7 +10,7 @@ Smartly, you start searching the internet 🔍 solutions, you search the whole i
 
 **😭 Google App Script**.
 
-Similar to this article written in this way: [How to clean email for gmail via app script ?] (https://www.xiaoa.name/tool/clean-gmail-via-app-script/), not hiding, this article is what I wrote, after my depth of practice, GAS in the process of running, call gmail pull back thread when often for unknown reasons timeout, there are some use of this approach! There are also some users who use this method to ask for help in Google forum, basically no solution.
+Similar to this article written in this way: [How to clean email for gmail via app script ?](https://www.xiaoa.name/tool/clean-gmail-via-app-script/), not hiding, this article is what I wrote, after my depth of practice, GAS in the process of running, call gmail pull back thread when often for unknown reasons timeout, there are some use of this approach! There are also some users who use this method to ask for help in Google forum, basically no solution.
 
 But it is not 100% failure, if your mail is not a lot, you can continue to try to use this approach, the text of the script has been rigorously verified, it is possible to run, because the above situation does not exclude the impact of the network link, maybe in your place is good.
 
