@@ -82,7 +82,7 @@ async function listThreads(auth, nextPageToken) {
   const res = await gmail.users.threads.list(
     Object.assign(
       {
-        q: "category:forums",
+        q: process.env.Q || "",
         maxResults: 100,
         userId: "me",
       },
