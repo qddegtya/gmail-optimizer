@@ -24,6 +24,8 @@ const { rimrafSync } = require('rimraf');
     console.log(`Multi workers started ...`);
     await Promise.all(
       threads.map((threadId) => {
+        // dispatch job to piscina
+        // with default thread pool config
         return piscina.runTask({ threadId });
       })
     );

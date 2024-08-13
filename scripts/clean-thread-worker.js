@@ -76,8 +76,7 @@ async function authorize() {
 }
 
 /**
- * delete thread
- * @param {*} auth
+ * delete your thread
  */
 module.exports = async ({ threadId }) => {
   // We ensure `auth` singleton

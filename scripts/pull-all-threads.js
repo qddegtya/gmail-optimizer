@@ -72,8 +72,9 @@ async function authorize() {
 }
 
 /**
- * list threads
+ * pull your all threads
  * @param {*} auth
+ * @param {*} nextPageToken 
  */
 async function listThreads(auth, nextPageToken) {
   const gmail = google.gmail({ version: "v1", auth });
